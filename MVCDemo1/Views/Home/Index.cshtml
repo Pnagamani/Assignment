@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron" style="background-color:aquamarine">
+        <center><h1 style="text-decoration-color:coral">Welcome to Shoppping</h1></center>
+    </div>
+    <center>
+        <div>
+            @Html.ActionLink("Welcome to Services", "Services", "Service")
+        </div>
+        <div>
+            @Html.ActionLink("Welcome to Products", "Products", "Product")
+        </div>
+    </center>
+</body>
+</html>
